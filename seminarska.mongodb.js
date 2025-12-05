@@ -1,0 +1,1695 @@
+use("Seminarska2025")
+db.seminarska.insertMany([
+  {
+    "sentence_id": 1,
+    "token_id": 1,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 1,
+    "token_id": 2,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 1,
+    "token_id": 4,
+    "beseda": "pometala",
+    "lema": "pometati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 1,
+    "token_id": 5,
+    "beseda": "hišo",
+    "lema": "hiša",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 1,
+    "token_id": 7,
+    "beseda": "našla",
+    "lema": "najti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 2,
+    "token_id": 1,
+    "beseda": "smetmi",
+    "lema": "smet",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 2,
+    "token_id": 2,
+    "beseda": "krajcar",
+    "lema": "krajcar",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 3,
+    "token_id": 1,
+    "beseda": "zanj",
+    "lema": "zame",
+    "del_govora": "PRON",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 3,
+    "token_id": 4,
+    "beseda": "kupila",
+    "lema": "kupiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 3,
+    "token_id": 5,
+    "beseda": "piskrček",
+    "lema": "piskrček",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 4,
+    "token_id": 1,
+    "beseda": "zvečer",
+    "lema": "zvečer",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 5,
+    "token_id": 1,
+    "beseda": "zlezla",
+    "lema": "zlesti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 5,
+    "token_id": 2,
+    "beseda": "vanj",
+    "lema": "vame",
+    "del_govora": "PRON",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 5,
+    "token_id": 4,
+    "beseda": "legla",
+    "lema": "leči",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 5,
+    "token_id": 6,
+    "beseda": "zaspala",
+    "lema": "zaspati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 6,
+    "token_id": 1,
+    "beseda": "zunaj",
+    "lema": "zunaj",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 6,
+    "token_id": 4,
+    "beseda": "hud",
+    "lema": "hud",
+    "del_govora": "ADJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 6,
+    "token_id": 5,
+    "beseda": "mraz",
+    "lema": "mraz",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 7,
+    "token_id": 1,
+    "beseda": "padala",
+    "lema": "padati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 7,
+    "token_id": 3,
+    "beseda": "slana",
+    "lema": "slana",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 8,
+    "token_id": 1,
+    "beseda": "mojco",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 8,
+    "token_id": 2,
+    "beseda": "pokrajculjo",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 8,
+    "token_id": 4,
+    "beseda": "zbudilo",
+    "lema": "zbuditi",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 8,
+    "token_id": 5,
+    "beseda": "močno",
+    "lema": "močen",
+    "del_govora": "ADJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 9,
+    "token_id": 1,
+    "beseda": "trkanje",
+    "lema": "trkanje",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 9,
+    "token_id": 3,
+    "beseda": "vrata",
+    "lema": "vrata",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 9,
+    "token_id": 4,
+    "beseda": "njene",
+    "lema": "njen",
+    "del_govora": "DET",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 9,
+    "token_id": 5,
+    "beseda": "hišice",
+    "lema": "hišica",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 10,
+    "token_id": 4,
+    "beseda": "zunaj",
+    "lema": "zunaj",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 10,
+    "token_id": 8,
+    "beseda": "vprašala",
+    "lema": "vprašati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 11,
+    "token_id": 5,
+    "beseda": "lisica",
+    "lema": "lisica",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 1,
+    "beseda": "oh",
+    "lema": "oh",
+    "del_govora": "INTJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 3,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 4,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 6,
+    "beseda": "lepo",
+    "lema": "lepo",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 8,
+    "beseda": "prosim",
+    "lema": "prositi",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 10,
+    "beseda": "pusti",
+    "lema": "pustiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 12,
+    "beseda": "k",
+    "lema": "k",
+    "del_govora": "ADP",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 15,
+    "beseda": "zunaj",
+    "lema": "zunaj",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 16,
+    "beseda": "brije",
+    "lema": "briti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 17,
+    "beseda": "burja",
+    "lema": "burja",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 19,
+    "beseda": "pritiska",
+    "lema": "pritiskati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 12,
+    "token_id": 20,
+    "beseda": "mraz",
+    "lema": "mraz",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 13,
+    "token_id": 1,
+    "beseda": "zmrznem",
+    "lema": "zmrzen",
+    "del_govora": "ADJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 13,
+    "token_id": 6,
+    "beseda": "vzameš",
+    "lema": "vzeti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 13,
+    "token_id": 8,
+    "beseda": "streho",
+    "lema": "streha",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 13,
+    "token_id": 12,
+    "beseda": "javkala",
+    "lema": "javkati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 14,
+    "token_id": 1,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 14,
+    "token_id": 2,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 14,
+    "token_id": 5,
+    "beseda": "dala",
+    "lema": "dati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 14,
+    "token_id": 8,
+    "beseda": "pregovoriti",
+    "lema": "pregovoriti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 15,
+    "token_id": 2,
+    "beseda": "dejala",
+    "lema": "dejati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 16,
+    "token_id": 4,
+    "beseda": "znaš",
+    "lema": "znati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 16,
+    "token_id": 7,
+    "beseda": "odprem",
+    "lema": "odpreti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 16,
+    "token_id": 9,
+    "beseda": "drugače",
+    "lema": "drugače",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 17,
+    "token_id": 2,
+    "beseda": "šivilja",
+    "lema": "šivilja",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 17,
+    "token_id": 7,
+    "beseda": "dejala",
+    "lema": "dejati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 17,
+    "token_id": 8,
+    "beseda": "lisica",
+    "lema": "lisica",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 18,
+    "token_id": 1,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 18,
+    "token_id": 2,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 18,
+    "token_id": 4,
+    "beseda": "spustila",
+    "lema": "spustiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 18,
+    "token_id": 5,
+    "beseda": "lisico",
+    "lema": "lisica",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 18,
+    "token_id": 7,
+    "beseda": "piskrček",
+    "lema": "piskrček",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 19,
+    "token_id": 1,
+    "beseda": "legli",
+    "lema": "leči",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 20,
+    "token_id": 3,
+    "beseda": "takoj",
+    "lema": "takoj",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 20,
+    "token_id": 4,
+    "beseda": "zaspali",
+    "lema": "zaspati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 1,
+    "beseda": "še",
+    "lema": "še",
+    "del_govora": "PART",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 2,
+    "beseda": "preden",
+    "lema": "preden",
+    "del_govora": "SCONJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 6,
+    "beseda": "spanju",
+    "lema": "spanje",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 7,
+    "beseda": "prvič",
+    "lema": "prvič",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 8,
+    "beseda": "obrnili",
+    "lema": "obrniti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 12,
+    "beseda": "zopet",
+    "lema": "zopet",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 13,
+    "beseda": "trkalo",
+    "lema": "trkati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 21,
+    "token_id": 15,
+    "beseda": "vrata",
+    "lema": "vrata",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 22,
+    "token_id": 3,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 22,
+    "token_id": 4,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 23,
+    "token_id": 1,
+    "beseda": "vprašala",
+    "lema": "vprašati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 23,
+    "token_id": 5,
+    "beseda": "trka",
+    "lema": "trkati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 23,
+    "token_id": 8,
+    "beseda": "zajavkalo",
+    "lema": "zajavkati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 24,
+    "token_id": 2,
+    "beseda": "oh",
+    "lema": "oh",
+    "del_govora": "INTJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 24,
+    "token_id": 4,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 24,
+    "token_id": 5,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 24,
+    "token_id": 7,
+    "beseda": "lepo",
+    "lema": "lepo",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 24,
+    "token_id": 9,
+    "beseda": "prosim",
+    "lema": "prositi",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 24,
+    "token_id": 11,
+    "beseda": "zunaj",
+    "lema": "zunaj",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 25,
+    "token_id": 1,
+    "beseda": "burja",
+    "lema": "burja",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 25,
+    "token_id": 3,
+    "beseda": "slana",
+    "lema": "slana",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 25,
+    "token_id": 4,
+    "beseda": "pada",
+    "lema": "padati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 25,
+    "token_id": 7,
+    "beseda": "zmrzujem",
+    "lema": "zmrzovati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 26,
+    "token_id": 1,
+    "beseda": "volk",
+    "lema": "volk",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 26,
+    "token_id": 4,
+    "beseda": "izučen",
+    "lema": "izučen",
+    "del_govora": "ADJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 27,
+    "token_id": 1,
+    "beseda": "mesar",
+    "lema": "mesar",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 4,
+    "beseda": "znaš",
+    "lema": "znati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 7,
+    "beseda": "pridi",
+    "lema": "priti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 8,
+    "beseda": "k",
+    "lema": "k",
+    "del_govora": "ADP",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 13,
+    "beseda": "odgovorila",
+    "lema": "odgovoriti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 14,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 15,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 17,
+    "beseda": "odprla",
+    "lema": "odpreti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 18,
+    "beseda": "vrata",
+    "lema": "vrata",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 20,
+    "beseda": "pustila",
+    "lema": "pustiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 21,
+    "beseda": "volka",
+    "lema": "volk",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 28,
+    "token_id": 23,
+    "beseda": "piskrček",
+    "lema": "piskrček",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 29,
+    "token_id": 2,
+    "beseda": "spanja",
+    "lema": "spanje",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 29,
+    "token_id": 5,
+    "beseda": "zbudilo",
+    "lema": "zbuditi",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 29,
+    "token_id": 6,
+    "beseda": "javkanje",
+    "lema": "javkanje",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 30,
+    "token_id": 2,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 30,
+    "token_id": 3,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 30,
+    "token_id": 5,
+    "beseda": "lepo",
+    "lema": "lepo",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 30,
+    "token_id": 7,
+    "beseda": "prosim",
+    "lema": "prositi",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 30,
+    "token_id": 9,
+    "beseda": "odpri",
+    "lema": "odpreti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 31,
+    "token_id": 1,
+    "beseda": "burja",
+    "lema": "burja",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 32,
+    "token_id": 1,
+    "beseda": "brije",
+    "lema": "briti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 32,
+    "token_id": 3,
+    "beseda": "slana",
+    "lema": "slana",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 32,
+    "token_id": 4,
+    "beseda": "pada",
+    "lema": "padati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 32,
+    "token_id": 8,
+    "beseda": "medved",
+    "lema": "medved",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 32,
+    "token_id": 10,
+    "beseda": "zmrznem",
+    "lema": "zmrzen",
+    "del_govora": "ADJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 33,
+    "token_id": 1,
+    "beseda": "pustiš",
+    "lema": "pustiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 33,
+    "token_id": 2,
+    "beseda": "k",
+    "lema": "k",
+    "del_govora": "ADP",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 34,
+    "token_id": 4,
+    "beseda": "znaš",
+    "lema": "znati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 34,
+    "token_id": 9,
+    "beseda": "vprašala",
+    "lema": "vprašati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 34,
+    "token_id": 10,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 34,
+    "token_id": 11,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 35,
+    "token_id": 2,
+    "beseda": "čevljar",
+    "lema": "čevljar",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 35,
+    "token_id": 7,
+    "beseda": "odgovoril",
+    "lema": "odgovoriti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 35,
+    "token_id": 8,
+    "beseda": "medved",
+    "lema": "medved",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 36,
+    "token_id": 1,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 36,
+    "token_id": 2,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 36,
+    "token_id": 6,
+    "beseda": "odprla",
+    "lema": "odpreti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 36,
+    "token_id": 7,
+    "beseda": "vrata",
+    "lema": "vrata",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 36,
+    "token_id": 9,
+    "beseda": "stežaj",
+    "lema": "stežaj",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 6,
+    "beseda": "noč",
+    "lema": "noč",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 9,
+    "beseda": "miru",
+    "lema": "mir",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 14,
+    "beseda": "hudovala",
+    "lema": "hudovati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 15,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 16,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 20,
+    "beseda": "znova",
+    "lema": "znova",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 21,
+    "beseda": "zaslišala",
+    "lema": "zaslišati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 37,
+    "token_id": 22,
+    "beseda": "trkanje",
+    "lema": "trkanje",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 38,
+    "token_id": 1,
+    "beseda": "tarnanje",
+    "lema": "tarnanje",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 39,
+    "token_id": 2,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 39,
+    "token_id": 3,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 39,
+    "token_id": 5,
+    "beseda": "lepo",
+    "lema": "lepo",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 39,
+    "token_id": 7,
+    "beseda": "prosim",
+    "lema": "prositi",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 39,
+    "token_id": 9,
+    "beseda": "pusti",
+    "lema": "pustiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 39,
+    "token_id": 11,
+    "beseda": "k",
+    "lema": "k",
+    "del_govora": "ADP",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 40,
+    "token_id": 1,
+    "beseda": "zmrzujem",
+    "lema": "zmrzovati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 41,
+    "token_id": 7,
+    "beseda": "znaš",
+    "lema": "znati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 41,
+    "token_id": 11,
+    "beseda": "vprašala",
+    "lema": "vprašati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 41,
+    "token_id": 12,
+    "beseda": "gospodinja",
+    "lema": "gospodinja",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 42,
+    "token_id": 4,
+    "beseda": "zajček",
+    "lema": "zajček",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 43,
+    "token_id": 1,
+    "beseda": "šivati",
+    "lema": "šivati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 43,
+    "token_id": 2,
+    "beseda": "znam",
+    "lema": "znati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 43,
+    "token_id": 3,
+    "beseda": "kakor",
+    "lema": "kakor",
+    "del_govora": "SCONJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 43,
+    "token_id": 4,
+    "beseda": "krojač",
+    "lema": "krojač",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 43,
+    "token_id": 9,
+    "beseda": "glasil",
+    "lema": "glasiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 43,
+    "token_id": 10,
+    "beseda": "odgovor",
+    "lema": "odgovor",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 44,
+    "token_id": 4,
+    "beseda": "zajček",
+    "lema": "zajček",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 44,
+    "token_id": 5,
+    "beseda": "dobil",
+    "lema": "dobiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 44,
+    "token_id": 6,
+    "beseda": "svoj",
+    "lema": "svoj",
+    "del_govora": "DET",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 44,
+    "token_id": 7,
+    "beseda": "kotiček",
+    "lema": "kotiček",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 45,
+    "token_id": 1,
+    "beseda": "piskrčkom",
+    "lema": "piskrček",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 46,
+    "token_id": 1,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 46,
+    "token_id": 6,
+    "beseda": "huda",
+    "lema": "hud",
+    "del_govora": "ADJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 46,
+    "token_id": 10,
+    "beseda": "zopet",
+    "lema": "zopet",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 46,
+    "token_id": 11,
+    "beseda": "nekdo",
+    "lema": "nekdo",
+    "del_govora": "PRON",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 46,
+    "token_id": 12,
+    "beseda": "trkal",
+    "lema": "trkati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 47,
+    "token_id": 1,
+    "beseda": "stokal",
+    "lema": "stokati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 48,
+    "token_id": 2,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 48,
+    "token_id": 3,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 48,
+    "token_id": 5,
+    "beseda": "lepo",
+    "lema": "lepo",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 48,
+    "token_id": 7,
+    "beseda": "prosim",
+    "lema": "prositi",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 48,
+    "token_id": 9,
+    "beseda": "spusti",
+    "lema": "spustiti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 48,
+    "token_id": 11,
+    "beseda": "noter",
+    "lema": "noter",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 49,
+    "token_id": 2,
+    "beseda": "prenesem",
+    "lema": "prenesti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 49,
+    "token_id": 4,
+    "beseda": "burje",
+    "lema": "burja",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 49,
+    "token_id": 6,
+    "beseda": "slane",
+    "lema": "slana",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 50,
+    "token_id": 3,
+    "beseda": "srnjak",
+    "lema": "srnjak",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 51,
+    "token_id": 1,
+    "beseda": "mojca",
+    "lema": "mojca",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 51,
+    "token_id": 2,
+    "beseda": "pokrajculja",
+    "lema": "pokrajculja",
+    "del_govora": "PROPN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 51,
+    "token_id": 6,
+    "beseda": "vzela",
+    "lema": "vzeti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 52,
+    "token_id": 2,
+    "beseda": "streho",
+    "lema": "streha",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 52,
+    "token_id": 6,
+    "beseda": "zvedela",
+    "lema": "zvedeti",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 52,
+    "token_id": 8,
+    "beseda": "da",
+    "lema": "da",
+    "del_govora": "SCONJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 52,
+    "token_id": 10,
+    "beseda": "izučen",
+    "lema": "izučen",
+    "del_govora": "ADJ",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 52,
+    "token_id": 11,
+    "beseda": "drvar",
+    "lema": "drvar",
+    "del_govora": "NOUN",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 54,
+    "token_id": 1,
+    "beseda": "sladko",
+    "lema": "sladko",
+    "del_govora": "ADV",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  },
+  {
+    "sentence_id": 54,
+    "token_id": 2,
+    "beseda": "zaspali",
+    "lema": "zaspati",
+    "del_govora": "VERB",
+    "tip_teksta": "leposlovje",
+    "vir": "Mojca Pokrajculja"
+  }
+])
